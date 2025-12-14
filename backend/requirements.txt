@@ -1,0 +1,20 @@
+# FastAPI and server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+
+# CORS middleware (included in fastapi, but explicit for clarity)
+python-multipart==0.0.6
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Data validation (comes with FastAPI via Pydantic)
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
+# Market data
+yfinance==0.2.49
+
+# Data processing
+pandas==2.2.3
+numpy==2.2.1
